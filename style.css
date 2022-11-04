@@ -1,0 +1,62 @@
+.Headbrand-logo {
+    max-width: 108px;
+    width: 100%;
+}
+
+.Headbrand {
+    line-height: 0;
+    padding-right: 420px;
+    padding-top: 20px;
+}
+
+.home-section{
+    width: 80%;
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px ;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: transparent;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 50px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+.s-content {
+    outline: none;
+    padding-top: 250px;
+    padding-left: 150px;
+}
